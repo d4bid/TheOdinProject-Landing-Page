@@ -71,13 +71,13 @@ body {
   color: #E5E7EB;
 }
 
-.hero-info button {
+.btn-sign-up {
   background-color: #3882F6;
-  color: white;
+  color: #F9FAF8;
   border: none;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
-  padding: 8px 24px;
+  padding: 8px 32px;
   border-radius: 8px;
   margin-top: 8px;
 }
@@ -159,3 +159,40 @@ body {
   font-size: 24px;
   font-style: normal;
 }
+
+.invite-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 96px;
+  margin-bottom: 96px;
+}
+
+.invite-container {
+  display: flex;
+  width: auto;
+  background-color: #3882F6;
+  border-radius: 12px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.invite-text {
+  color: #F9FAF8;
+}
+
+.invite-text span {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.invite-container button {
+  border-color: #F9FAF8;
+  border-width: 3px;
+  border-style: solid;
+}
+
