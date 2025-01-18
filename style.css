@@ -80,11 +80,63 @@ body {
   padding: 8px 24px;
   border-radius: 8px;
   margin-top: 8px;
-  flex: 1;
 }
 
 .hero-info img {
-  flex: 1;
   border-radius: 50px;
 }
 
+.info-section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin: 48px;
+}
+
+.info-title {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  align-self: center;
+  margin-bottom: 48px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+}
+
+.card .img-container {
+  border: 3px solid #3882F6;
+  width: 200px;
+  height: 200px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.card p {
+  text-align: center;
+  color: gray;
+  padding: 0;
+  margin: 0;
+}
+
+.qoute-section {
+  background-color: #E5E7EB;
+  padding-left: 200px;
+  padding-right: 200px;
+}
